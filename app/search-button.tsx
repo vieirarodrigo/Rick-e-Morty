@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 const formSchema = z.object({
   query: z
     .string()
-    .min(1, { message: "Digite no mínimo 1 caracter" })
+    .min(0)
     .max(50),
 })
 
